@@ -1,0 +1,16 @@
+﻿rule,rule_id,test_name,credit_score,location,num_accounts,product_name,expected_result
+florida,1,all caps in florida,720,FLORIDA,0,15 year,None
+florida,1,all lower in florida,720,florida,0,15 year,None
+florida,1,all lower not in florida,720,texas,0,15 year,5.00
+florida,1,all caps not in florida,720,TEXAS,0,15 year,5.00
+good_credit,2,very good credit,800,Texas,0,15 year,4.70
+good_credit,2,good credit,720,Texas,0,15 year,4.70
+bad_credit,3,bad credit,719,Texas,0,15 year,5.50
+bad_credit,3,very bad credit,306,Texas,0,15 year,5.50
+arm,4,arm product,700,Texas,0,7-1 ARM,5.50
+arm,4,non-arm product,700,Texas,0,15 year,5.00
+arm,4,not direct arm match,700,Texas,0,7-1 ARM adjusted,5.00
+repeat_cust,5,many open accounts,700,Texas,5,15 year,4.90
+repeat_cust,5,some acounts,700,Texas,2,15 year,4.90
+repeat_cust,5,one account,700,Texas,1,15 year,4.90
+repeat_cust,5,no accounts,700,Texas,0,15 year,5.00

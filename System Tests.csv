@@ -1,0 +1,17 @@
+﻿repeat customer,florida DQ,good credit,bad credit,ARM,,test_name,credit_score,location,num_accounts,product_name,expected_result
+,,,X,X,,"bad credit, arm",650,Delaware,0,7-1 ARM,6.00
+,,,X,,,bad credit,300,michigan,0,15 year,5.50
+,,X,,X,,"good credit, arm",787,Texas,0,7-1 arm,5.20
+,,X,,,,good credit,720,Wyoming,0,15 year,4.70
+,X,,X,X,,"florida, bad credit, arm",580,FLORIDA,0,7-1 aRM,None
+,X,,X,,,"florida, bad credit",614,florida,0,15 year,None
+,X,X,,X,,"florida, good credit, arm",721,florIDa,0,7-1 ARM,None
+,X,X,,,,"florida, good credit",850,FLORIDA,0,15 year,None
+X,,,X,X,,"repeat cust, bad credit, arm",650,Delaware,1,7-1 ARM,5.90
+X,,,X,,,"repeat cust, bad credit",300,michigan,1,15 year,5.40
+X,,X,,X,,"repeat cust, good credit, arm",787,Texas,1,7-1 arm,5.10
+X,,X,,,,"repeat cust, good credit",720,Wyoming,3,15 year,4.60
+X,X,,X,X,,"repeat cust, florida, bad credit, arm",580,FLORIDA,1,7-1 aRM,None
+X,X,,X,,,"repeat cust, florida, bad credit",614,florida,6,15 year,None
+X,X,X,,X,,"repeat cust, florida, good credit, arm",721,florIDa,2,7-1 ARM,None
+X,X,X,,,,"repeat cust, florida, good credit",850,FLORIDA,4,15 year,None
